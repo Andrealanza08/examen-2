@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-fondo:#f5f5f5;
+	--color-contenido:#898989;
+}
+
+header{
+	background-color: #fff;
+}
+
+#hero-slides h1{
+	font-weight: bold;
+	font-size: 80px;
+	color:#FFFFFF;
+}
+
+#hero-slides .btn-light{
+	background-color: transparent;
+	border: solid;
+	color:#FFFFFF;
+}
+
+
+
+.titulo{
+	text-align: center;
+	color: var(--color-negro);
+	padding: 20px;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 35px;
+}
+	
+
+
+#conferences{
+	text-align: center;
+	padding: 50px;
+}
+#conferences h2{
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #1a1a1a;
+	text-transform: uppercase;
+	
+}
+#conferences h5{
+	text-align: center;
+	color: var(--color-negro);
+	padding-top: 20px;
+	font-weight: bold;
+}
+#conferences h6{
+	
+	font-weight: bold;
+}
+#conferences p{
+	color: var(--color-contenido);
+	padding: 10px 0 15px;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+#speaker p{
+
+	color: var(--color-contenido);
+	padding: 15px 0 15px;
+	font-size: 15px;
+	
+}
+
+#speaker h5{
+	text-align: center;
+	color: var(--color-negro);
+	padding-top: 20px;
+	font-weight: bold;
+	
+}
+
+#speaker h6{
+	
+	font-weight: bold;
+}
+#speaker{
+	padding: 70px;
+	text-align: center;
+}
+
+
+
+
+#meetings h2{
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+#meetings p{
+	font-weight: 300;
+	color: #9B9797;
+	font-size: 12px;
+}
+
+#meetings i{
+	font-size: 40px;
+	line-height: 70px;
+	text-align: center;
+	color: #9B9797;
+}
+
+
+#meetings{
+	background-color: var(--menu-hover);
+	padding-top: 100px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 150px;
+}
+
+#meetings h3{
+	color: #c3c3c3;
+	font-size: 14px;
+}
+
+#sponsors p{
+	color: var(--color-contenido);
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+#sponsors{
+	text-align: center;
+}
+
+#sponsors img{
+
+	padding-bottom: 50px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+
